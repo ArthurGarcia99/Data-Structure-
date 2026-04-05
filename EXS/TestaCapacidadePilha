@@ -1,0 +1,12 @@
+import Stack from "./Stack.mjs"
+
+const historico = new Stack(3)
+
+    historico.push("Digitou A")
+    historico.push("Digitou B")
+    historico.push("Digitou C")
+
+    console.log("Histórico:", historico.print())
+
+    // Vai estourar aqui
+    historico.push("Digitou D")
